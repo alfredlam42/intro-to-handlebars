@@ -45,5 +45,4 @@ Here's the command to remember when you want to compile all your templates. You'
 handlebars <template directory> -f <filename>
 ```
 
-You don't need to precompile your templates and compile it when someone loads the website. It's not recommended because it might slow down the loading speed.
-
+You don't need to precompile your templates because you can compile it when someone loads the website. It's not recommended because it might slow down the loading speed of the page.
