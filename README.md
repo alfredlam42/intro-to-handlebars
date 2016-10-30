@@ -16,4 +16,4 @@ This might not be a huge deal when you're making a small simple site, but when y
 
 ## What Can Handlebars Do?
 
-Handlebars has very simple logic built into. You can use if and each statements, basically whatever you normally use in the erb files. There are a few more features, but you can find all that at the (http://handlebarsjs.com/)[Handlebars] website.
+Handlebars has very simple logic built into. You can use if and each statements, basically whatever you normally use in the erb files. There are a few more features, but you can find all that at the [http://handlebarsjs.com/](Handlebars) website.
