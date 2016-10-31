@@ -6,13 +6,15 @@ Handlebars is a simple front end templating engine that allows you to dynamicall
 
 ## Why Handlebars?
 
-Doesn't Sinatra let us dynamically create our pages?
+Doesn't Sinatra use erb to let us dynamically create our pages?
 
-Yes, it does, but there are other reasons to use Handlebars as well.
+Yes, it does.
 
-When you use Sinatra, you usually only send one erb file and that contains all the HTML. Or if you send a partial, you can only send one partial.
+There's a huge debate on weather to use server-side rendering or client-side rendering. Right now might not be a huge deal when you're at DBC since you're not making ginormous products used by millions of people.
 
-This might not be a huge deal when you're making a small simple site, but when you scale and create a huge project, it might be beneficial to break things down into their own components so that when you want to look for a specific part of your website to work on, it'll be easy to find. If a page has a huge amount of HTML, it might be hard to recognize or find what you want to work on.
+One reason is loading time. A lot of tests has found that client-side rendering is just a bit faster than server-side rendering.
+
+Another reason is that sending JSON data over takes less space than sending an entire block of HTML code. For example, the JSON could be 1KB and the HTML code could be 3KB. Not much for you, but if you're Facebook where millions of users access your site, the difference of 2KB is a lot. Yes, people have to download the template, but you can cache that so they don't have to download it again.
 
 ## What Can Handlebars Do?
 
@@ -22,11 +24,7 @@ Handlebars has very simple logic built into. You can use if and each statements,
 
 The if statement can only evaluate if a statement is true or false. You can't put a conditional like if name == 'Alfred'.
 
-It's also very bad for SEO.
-
-Because everything is added through Javascript after loading, it seems like a blank page to the web crawlers.
-
-That's the only thing I can think of at the moment.
+Because everything is added through Javascript after loading, it seems like a blank page to the web crawlers. But I'm not entire surely about this since this is what I've read.
 
 ## Setting Up Handlebars
 
