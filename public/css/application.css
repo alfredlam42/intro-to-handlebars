@@ -1,35 +1,30 @@
-#header {
+body, html {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px;
+  justify-content: center;
 }
 
-.title {
-  font-size: 28px;
-  font-weight: bold;
+.header img {
+  width: 25%;
+  height: 25%;
 }
 
-.navigation {
+.prof-oak {
+  width: 100%;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
-.navigation #blog, .navigation #about-me {
-  margin: 5px;
+.prof-oak img {
+  width: 10%;
+  height: 10%;
 }
 
-#post-listings {
-  margin: 0 10px;
-  display: flex;
-  flex-direction: column;
-}
+.pokemonChoice input div{
+  display: inline-block;
 
-#post-listings a {
-  text-decoration: none;
-  color: black;
-}
-
-.post-container {
-  margin: 10px;
 }

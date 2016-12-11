@@ -19,6 +19,8 @@ gem 'shotgun'
 gem 'dotenv'
 gem 'httparty'
 
+gem 'tilt-handlebars'
+
 group :development, :test do
   gem 'faker'
   gem 'rspec'

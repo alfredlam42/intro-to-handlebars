@@ -1,0 +1,5 @@
+Pokemon.create({name: 'Bulbasaur', affinity: 'Grass/Poison'})
+Pokemon.create({name: 'Squirtle', affinity: 'Water'})
+Pokemon.create({name: 'Charmander', affinity: 'Fire'})
+Pokemon.create({name: 'Pikachu', affinity: 'Electric'})
+Pokemon.create({name: 'Eevee', affinity: 'Normal'})
