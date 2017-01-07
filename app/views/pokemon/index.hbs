@@ -1,7 +1,7 @@
 {{#each pokemons}}
   <div class="pokemon">
     <div class="pokedexNumber">{{this.pokedex_number}}</div>
-    <div class="pokemonName">{{this.name}}</div>
+    <div class="pokemonName"><a href="/pokemon/{{this.pokedex_number}}">{{this.name}}</a></div>
     </div class="pokemonType">{{this.affinity}}</div>
   </div>
 {{/each}}
