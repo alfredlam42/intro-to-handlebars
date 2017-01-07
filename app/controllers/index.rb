@@ -1,8 +1,8 @@
 get '/' do
-  redirect '/trainer'
+  redirect '/pokemon'
 end
 
-get '/trainer' do
-  starters = Array.new.concat(Pokemon.all)
-  handlebars :'/trainer/index', locals: {pokemons: starters, }
+get '/pokemon' do
+  pokemons = Array.new.concat(Pokemon.all)
+  handlebars :'/pokemon/index', locals: {pokemons: starters, }
 end
