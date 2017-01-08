@@ -13,18 +13,7 @@ body, html {
   height: 25%;
 }
 
-.prof-oak {
-  width: 100%;
+.pokemon {
   display: flex;
-  justify-content: center;
-}
-
-.prof-oak img {
-  width: 10%;
-  height: 10%;
-}
-
-.pokemonChoice input div{
-  display: inline-block;
-
+  flex-direction: row;
 }
