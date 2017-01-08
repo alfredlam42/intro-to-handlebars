@@ -1,0 +1,3 @@
+Pokemon.create(name: 'Bulbasaur', affinity: 'Grass', description: 'A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.', pokedex_number: 1)
+Pokemon.create(name: 'Charmander', affinity: 'Fire', description: 'Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.', pokedex_number: 4)
+Pokemon.create(name: 'Squirtle', affinity: 'Water', description: 'After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.',pokedex_number: 7)
