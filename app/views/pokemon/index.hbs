@@ -1,6 +1,16 @@
-{{#each pokemons}}
-  <div class="pokemon">
-    <div class="pokedexNumber">{{this.pokedex_number}}</div>
-    <div class="pokemonName"><a href="/pokemon/{{this.pokedex_number}}">{{this.name}}</a></div>
-  </div>
-{{/each}}
+<table>
+  <tr>
+    <th>Pokedex Number</th>
+    <th>Pokemon</th>
+  </tr>
+  {{#each pokemons}}
+    <tr class="pokemon">
+      <td class="pokedexNumber">{{this.pokedex_number}}</div>
+      <td class="pokemonName"><a href="/pokemon/{{this.pokedex_number}}">{{this.name}}</a></td>
+    </tr>
+  {{/each}}
+</table>
+
+<div class="newPokemonForm">
+  <a href="#new">Add New Pokemon</a>
+</div>
